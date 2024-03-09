@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'SuezOne';
+  src: local('SuezOne'), url('../misc/Suez_One/SuezOne-Regular.ttf') format('truetype');
+}.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.categorycontainers {
+  display: grid;
+  align-items: center; /* Center vertically */
+  justify-content:center ; /* Distribute the TutorialBox components evenly */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width:45%;
+}
+
+@media (max-width:1886px){
+  .categorycontainers {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+}
+@media (max-width: 880px) {
+  .categorycontainers {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .categorycontainers {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+}
+h1{
+  font-family: SuezOne;
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-div{
+    width: 100vw;
+    height:12vh;
+    
+}

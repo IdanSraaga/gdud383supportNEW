@@ -1,0 +1,104 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align vertically if needed */
+    height: 180px;
+    width: 180px;
+    user-select: none;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    margin-bottom: 20%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 8px;
+    box-shadow: rgb(115, 147, 179) 0px 6px 12px;
+    font-family: 'Assistant',sans-serif;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align vertically if needed */
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+}
+.card-img img{
+    height: 86%;
+
+    
+}
+.box:hover {
+    cursor: pointer;
+    animation: jiggle 0.4s infinite;
+    -webkit-animation: jiggle 0.4s infinite;
+    -moz-animation-duration: 0.4s;
+    -moz-animation-name: jiggle;
+    -moz-animation-iteration-count: infinite;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+}
+
+h6{
+    margin: 0;
+}
+.desc{
+
+    width: 100%;
+    position: absolute;
+    top: 130px;
+}
+.primary-text{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    text-align: center;
+    align-content: center;
+    
+
+}
+
+
+@media screen and (min-width: 451px) {
+  a{
+    font-size: 18px;
+     padding:8px 12px 8px 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  a{
+    font-size: 12px;
+     padding:5px 8px 5px 8px;
+  }
+}
+@keyframes jiggle {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+}
+
+@-webkit-keyframes jiggle {
+    0% {
+        -webkit-transform: rotate(-5deg);
+    }
+    50% {
+        -webkit-transform: rotate(5deg);
+    }
+}
+
+@-moz-keyframes jiggle {
+    0% {
+        -moz-transform: rotate(-5deg);
+    }
+    50% {
+        -moz-transform: rotate(5deg);
+    }
+}

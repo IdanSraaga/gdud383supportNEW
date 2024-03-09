@@ -1,0 +1,26 @@
+.header {
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0062b3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .left-element {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  
+  .center-element {
+    margin: 0 auto;
+    
+  }
+  
+  .right-element {
+    margin-left: auto;
+    margin-right: 20px;
+  }

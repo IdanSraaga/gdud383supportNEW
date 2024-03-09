@@ -1,0 +1,38 @@
+/* TutorialBox.css */
+.tutorialbox {
+  height: 250px;
+  width:250px;
+  justify-self: center; /* Center the boxes horizontally */
+  position: relative;
+  background: #0062b3;
+  border-radius: 20px; /* Adjust the value to control the curvature */
+}
+
+.contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+}
+@media (max-width:1886px){
+    .tutorialbox {
+        height: 300px;
+        width: 300px;
+      }
+}
+@media (max-width: 768px) {
+  .tutorialbox {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tutorialbox {
+    height: 150px;
+    width: 150px;
+  }
+}

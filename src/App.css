@@ -1,0 +1,13 @@
+body{
+}
+.pdfWrapper{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* overflow-x: auto; */
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,16 @@
+/* Survey.css */
+.nav {
+  direction: rtl;
+  padding-inline-start: 0px;
+}
+
+.tab-content,
+.step-2,
+.row,
+.form-check {
+  direction: rtl;
+}
+
+.mb-4 {
+  user-select: none;
+}

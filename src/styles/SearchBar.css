@@ -1,0 +1,20 @@
+
+.search {
+  border: 1px solid gray;  /* Set default border color to gray */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 40px;
+  width: 18%;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+input[type=text] {
+  border: 1px solid #ccc;
+}
+input[type=text]:focus {
+  border: 1px solid #444;
+}

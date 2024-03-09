@@ -1,0 +1,64 @@
+{
+  "name": "gdud383support",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@floating-ui/react": "^0.26.9",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf/renderer": "^3.1.14",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.2",
+    "cra-template": "1.2.0",
+    "flowbite": "^2.3.0",
+    "flowbite-react": "^0.7.2",
+    "jquery": "^3.7.1",
+    "pdfjs-dist": "^3.4.120",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.2",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^7.5.1",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "react-window": "^1.8.9",
+    "reactjs-popup": "^2.0.6",
+    "remodal": "^1.1.1",
+    "styled-components": "^6.1.6",
+    "sweetalert2": "^11.10.2",
+    "tailwindcss": "^3.4.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "antd": "^5.11.2",
+    "pdfjs": "^2.5.2",
+    "react-pdf-js": "^5.1.0",
+    "use-resize-observer": "^9.1.0"
+  }
+}

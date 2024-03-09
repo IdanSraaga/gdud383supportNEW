@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+.categorycontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #5b21b6, #1e40af);
+  color: #fff;
+}
+
+.categorybutton {
+  animation: shimmer 1.5s ease infinite alternate running;
+  background: #0062b3;
+  background-size: 200% 100%;
+  border: none;
+  border-radius: 6px;
+  box-shadow: -2px -2px 10px rgba(255, 227, 126, 0.5),
+    2px 2px 10px rgba(144, 148, 255, 0.5);
+  color: #170f1e;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 670;
+  line-height: 24px;
+  overflow: hidden;
+  padding: 12px 24px;
+  margin: 12px;
+  text-decoration: none;
+  transition: transform 0.8s;
+  left: -20px;
+  opacity: 0.8;
+  top: -2px;
+  transition: 0.5s cubic-bezier(0.5, -0.5, 0.5, 1.5);
+}
+
+
+
+.categorybutton:hover svg {
+  opacity: 1.2;
+  transform: translateX(50px) scale(1.5);
+}
+
+.categorybutton:hover {
+  animation: rotateLeftRight 0.5s forwards;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+@keyframes rotateLeftRight {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  direction: rtl;
+  padding: 4px 10px;
+  min-width: 280px;
+  min-height: 280px;
+  margin: 4px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category {
+  color: #64748b;
+  font-size: 10px;
+}
+
+.active {
+  background-color: #1e293b;
+  color: #fff;
+}

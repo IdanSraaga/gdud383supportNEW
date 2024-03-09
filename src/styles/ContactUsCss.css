@@ -1,0 +1,28 @@
+.phone-contact-ways {
+  margin-top: 25px;
+  width: 100%;
+  border-width: 1px;
+  border-style: none;
+  border-color: #ffffff;
+  border-collapse: separate;
+  background-color: #FFFFFF;
+  color: #222222;
+  text-align:'center'
+}
+
+.phone-contact-ways th, .phone-contact-ways td {
+  border-width: 1px;
+  border-style: none;
+  border-color: #ffffff;
+}
+
+.phone-contact-ways thead {
+  background-color: #FFFFFF;
+  color: #222222;
+  font-size: 20px;
+  
+}
+.phone-contact-ways td{
+    text-align: center;
+    vertical-align: middle;
+}
