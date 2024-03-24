@@ -77,7 +77,7 @@ export default function MultiFilters() {
         {filteredItems.map((item, idx) => (
           <div key={`items-${idx}`} className="item">
             <p className="CategoryName">{item.name}</p>
-            <p >dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd wesadf</p>
+            <p >{item.description}</p>
             <p className="category">{item.category}</p>
           </div>
         ))}

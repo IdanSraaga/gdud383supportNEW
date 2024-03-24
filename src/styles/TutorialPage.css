@@ -78,9 +78,11 @@ p {
   }
 }
 .items-container {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
-
+  max-height: 100vh;
+  overflow-y: auto;
   justify-content: center;
   align-items: center;
 }
@@ -88,7 +90,7 @@ p {
 .item {
   direction: rtl;
   padding: 4px 10px;
-  min-width: 280px;
+  width: 25%;
   min-height: 280px;
   margin: 4px 10px;
   border: 1px solid #000;
