@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { items } from "../misc/items";
 import "../styles/TutorialPage.css";
-import styles from "../styles/SearchBar.css";
-
+import styles from '../styles/SearchBar.css'
 export default function MultiFilters() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFilters, setSelectedFilters] = useState([]);
@@ -43,20 +42,20 @@ export default function MultiFilters() {
 
   return (
     <div>
-            <div className="search-bar">
-        <input
-          type="text"
-          value={searchQuery}
-          className="search"
-          onChange={handleSearchInputChange}
-          placeholder="חפש..."
-          style={{ direction: 'rtl' }} // Set direction to right-to-left
-        />
-        {searchQuery && (
-          <button onClick={handleClear} aria-label="Clear search">
-            x
-          </button>
-        )}
+      <div className="search-bar">
+          <input
+            type="text"
+            value={searchQuery}
+            className="search"
+            onChange={handleSearchInputChange}
+            placeholder="חפש..."
+            style={{ direction: 'rtl' }} // Set direction to right-to-left
+          />
+          {searchQuery && (
+            <button onClick={handleClear} aria-label="Clear search">
+              x
+            </button>
+          )}
       </div>
       <div className="buttons-container">
         {filters.map((category, idx) => (
@@ -74,10 +73,11 @@ export default function MultiFilters() {
 
 
 
-      <div className="items-container">
+      <div className="items-container" style={{ overflowWrap: "break-word" }}>
         {filteredItems.map((item, idx) => (
           <div key={`items-${idx}`} className="item">
-            <p>{item.name}</p>
+            <p className="CategoryName">{item.name}</p>
+            <p >dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd wesadf</p>
             <p className="category">{item.category}</p>
           </div>
         ))}

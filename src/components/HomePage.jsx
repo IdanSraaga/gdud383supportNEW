@@ -1,4 +1,4 @@
-import Navbar from "./Navbar"
+import Nav from "./CenteredNav"
 import "../styles/HomePage.css"
 import Logo from "../imgs/383AnimationLogoVideo.mp4"
 import React, { useState, useEffect } from 'react';
@@ -28,11 +28,11 @@ const HomePage = () =>{
             {/* Render your main content when isLoading is false */}
             {!isLoading && (
                 <div>
-                    <Navbar/>
+                    <Nav className="NavColor"style={{background:"rgba(0,0,0,0.5)" }}/>
                     <HomeContainer/>                
                 </div>
             )}
-
+ 
         </div>
     );
 

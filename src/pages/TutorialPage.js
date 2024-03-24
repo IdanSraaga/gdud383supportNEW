@@ -1,7 +1,7 @@
 // src/TutorialsPage.js
 import React from 'react';
 import { useEffect } from 'react';
-import Nav from '../components/Nav';
+import Nav from '../components/CenteredNav';
 import '../styles/navcss.css'
 import MultiFilters from '../components/MultiFilter';
 

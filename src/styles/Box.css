@@ -1,5 +1,6 @@
 .box{
     display: flex;
+    background-color: white;
     justify-content: center;
     align-items: center; /* Align vertically if needed */
     height: 180px;
@@ -13,9 +14,10 @@
     top: 0;
     bottom: 0;
     border-radius: 8px;
-    box-shadow: rgb(115, 147, 179) 0px 6px 12px;
+    box-shadow: /*rgb(115, 147, 179)*/ #000000 0px 6px 12px;
     font-family: 'Assistant',sans-serif;
 }
+
 .card-img{
     display: flex;
     justify-content: center;

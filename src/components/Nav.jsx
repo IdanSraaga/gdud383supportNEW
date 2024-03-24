@@ -2,7 +2,7 @@ import React from 'react'
 import { Avatar, Dropdown, Navbar } from 'flowbite-react'
 import "../styles/navcss.css"
 import '../../node_modules/flowbite/dist/flowbite.css'
-import Logo from "../imgs/383animatedlogo.gif"
+import Logo from "../imgs/borcelle.gif"
 
 const Nav = () => {
   return (

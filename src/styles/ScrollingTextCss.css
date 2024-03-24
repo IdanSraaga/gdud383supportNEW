@@ -28,8 +28,9 @@
   flex-direction: column;
   position: fixed;
   overflow: hidden;
-  top: 16%;
-  margin: 3.5em;
+  top: 15vh;
+  margin: 5em 3.5em 3.5em 3.5em;
+
   flex: 0 0 150px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

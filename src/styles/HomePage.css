@@ -5,7 +5,7 @@ body, html {
   height: 100%;
   overflow: hidden;
   background-image:
-   url( '../imgs/BackgroundTest.svg' ),
+   url( '../imgs/BackgroundTest.svg' );
 }
 
 .fullscreen-video {
@@ -15,4 +15,7 @@ body, html {
   width: 100vw; /* 100% of viewport width */
   height: 100vh; /* 100% of viewport height */
   object-fit: cover; /* Ensure the video covers the entire space */
+}
+.NavColor{
+  background: rgba(0,0,0,0.5) !important;
 }

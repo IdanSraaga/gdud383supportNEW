@@ -4,6 +4,9 @@ import { useEffect, useState } from 'react';
 import MainRouteButtons from './MainRouteButtons';
 import ScrollingText from './ScrollingText';
 import  "../styles/HomeColumnCenterCss.css"
+
+
+
 const $ = require('jquery');
 
 const HomeColumnCenter = () => {
