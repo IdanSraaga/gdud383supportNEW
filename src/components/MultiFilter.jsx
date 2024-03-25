@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { items } from "../misc/items";
 import "../styles/TutorialPage.css";
-import styles from '../styles/SearchBar.css'
+import '../styles/SearchBar.css'
+import Box from "./Box";
 export default function MultiFilters() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFilters, setSelectedFilters] = useState([]);
@@ -57,32 +58,36 @@ export default function MultiFilters() {
             </button>
           )}
       </div>
-      <div className="buttons-container">
-        {filters.map((category, idx) => (
-          <button
-            onClick={() => handleFilterButtonClick(category)}
-            className={`categorybutton ${
-              selectedFilters?.includes(category) ? "active" : ""
-            }`}
-            key={`filters-${idx}`}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
+      
+        <div className="buttons-container" >
+            {filters.map((category, idx) => (
+              <button
+                onClick={() => handleFilterButtonClick(category)}
+                className={`categorybutton ${
+                  selectedFilters?.includes(category) ? "active" : ""
+                }`}
+                key={`filters-${idx}`}
+              >
+                {category}
+              </button>
+            ))}
+          
+        </div>
+      
 
 
-
-      <div className="items-container" style={{ overflowWrap: "break-word" }}>
-        {filteredItems.map((item, idx) => (
-          <div key={`items-${idx}`} className="item">
-            <p className="CategoryName">{item.name}</p>
-            <p >{item.description}</p>
-            <p className="category">{item.category}</p>
+          <div className="items-container" style={{ overflowWrap: "break-word" }}>
+              {filteredItems.map((item, idx) => (
+                <div key={`items-${idx}`} className="item">
+                  <p className="CategoryName">{item.name}</p>
+                  <p >{item.description}</p>
+                  <p className="category">{item.category}</p>
+                </div>
+              ))}
           </div>
-        ))}
-      </div>
-    </div>
+        </div>
+
+
   );
 }
 

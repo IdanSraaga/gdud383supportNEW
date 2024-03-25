@@ -19,6 +19,7 @@ const HomePage = () =>{
     }, []);
     return(
         <div className="fullscreen-video">
+
             {isLoading && (
                     <video autoPlay loop muted playsInline >
                         <source src={Logo} type="video/mp4"/>

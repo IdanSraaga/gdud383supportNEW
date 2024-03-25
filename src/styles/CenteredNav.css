@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  padding: 1rem;
-  margin: 12px;
+  margin-right: 12px;
+  margin-left: 12px;
 }
 
 .left {
@@ -45,5 +45,5 @@
 .logo {
   width: 140px;
   height: auto;
-  margin:5px 10px 10px 5px;
+
 }

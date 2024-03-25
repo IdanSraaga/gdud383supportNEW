@@ -24,7 +24,7 @@ const TutorialPage = () => {
         }
     }, []);*/
   return (
-    <div /*style={{overflowX:"hidden",overflowY:"visible"}}*/>
+    <div>
       <div className="nav-div">
           <Nav/>
           

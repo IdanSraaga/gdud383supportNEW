@@ -51,16 +51,16 @@ const HomeColumnCenter = () => {
   return (
     
       <div className="home-column2">
-        <div className="container"> 
+        <div className="center-column-container"> 
           <div className="home-scrolling-text" id="scroll-container">
             <ScrollingText />
           </div>
 
           {/* Two buttons */}
-          <div className="button-container">
+          {/* <div className="button-container">
             <button className="button">יש לי בקשה</button>
             <button className="button">יש לי תקלה</button>
-          </div>
+          </div> */}
         </div>
 
       </div>

@@ -7,7 +7,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: visible;
 }
 
 h1,
@@ -40,9 +39,8 @@ p {
   font-size: 16px;
   font-weight: 670;
   line-height: 24px;
-  overflow: hidden;
   padding: 12px 24px;
-  margin: 12px;
+  margin-left: 12px;
   text-decoration: none;
   transition: transform 0.8s;
   left: -20px;
@@ -65,6 +63,7 @@ p {
   animation: rotateLeftRight 0.5s forwards;
 }
 .buttons-container {
+  
   display: flex;
   justify-content: center;
 }
@@ -80,11 +79,11 @@ p {
 .items-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
-  max-height: 100vh;
   overflow-y: auto;
+  max-height:calc(100vh);
   justify-content: center;
   align-items: center;
+  
 }
 
 .item {
@@ -93,12 +92,16 @@ p {
   width: 25%;
   min-height: 280px;
   margin: 4px 10px;
-  border: 1px solid #000;
-  border-radius: 5px;
   margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
 }
 
 .category {

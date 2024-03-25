@@ -1,14 +1,33 @@
 /* HomeColumns.css */
 .home-container {
   display: flex;
-  justify-content: space-between;
+  height: 100vh;
+  
 }
 
 .scroll-container{
   width: 50vw;
 }
+.home-column1,.home-column3{
+  display: flex; /* Use flexbox for the home-column3 */
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 20vh;
+}
+.home-column2{
+  flex:2;
+}
+@media (max-width: 1280px) {
+  .home-container {
+    width: 1280px;
+  }
+  .button{
+    width: 250px;
+  }
+}
 
-.home-column1,
+/* .home-column1,
 .home-column3,
 .home-column2 {
   flex: 1;
@@ -18,11 +37,9 @@
 }
 
 .home-column2 {
-  flex: 2; /* Take up 50% of the view */
+  flex: 2;  Take up 50% of the view 
   margin-top: 55vh;
-
 }
-
 .home-left-buttons,
 .home-right-buttons {
   margin-top: 5vh;
@@ -34,4 +51,5 @@
 .home-column1.mirrored,
 .home-column3.mirrored {
   transform: scaleX(-1);
-}
+} 
+*/
