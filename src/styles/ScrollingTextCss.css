@@ -30,9 +30,11 @@
   overflow: hidden;
   top: 15vh;
   margin: 5em 3.5em 3.5em 3.5em;
+  background-color: rgba(255, 255, 255, 0.6);
 
+  backdrop-filter: blur(10px);
   flex:3;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
 }
 #scroll-text {
   box-shadow:rgba(0, 0, 0, 0) 0px ;
@@ -56,6 +58,7 @@
   top: 20%;
   flex: 1;
   width: 80%;
+  font-weight: 500;
   height: 50vh;
   display: flex;
   align-self: center;

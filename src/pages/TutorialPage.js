@@ -29,7 +29,15 @@ const TutorialPage = () => {
           <Nav/>
           
       </div>
-      <p style={{fontSize:'60px',fontFamily:"SuezOneLight",textAlign:"center",fontWeight:400}}> 
+      <p style={{
+          fontSize: '60px',
+          fontFamily: "SuezOneLight",
+          textAlign: "center",
+          fontWeight: 400,
+          position: 'relative', // Position the <p> tag relative to its normal position
+          zIndex: 2, // Ensure the <p> tag appears above other elements
+          marginTop: '-50px' // Adjust the margin to move it upwards
+        }}> 
         נהלים ומדריכים
       </p>
       <MultiFilters/>

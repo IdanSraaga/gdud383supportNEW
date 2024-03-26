@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 import SLA from './SLA';
 
 const openModal = () => {
+  console.log("Click!");
   // Customize based on the button number
   let content = <SLA />;
   // Open SweetAlert modal
@@ -31,8 +32,8 @@ const openModal = () => {
 const ScrollingText = () => {
   return (
 
-          <div onClick={openModal()}>
-            <div className="ScrollingText" id="scroll-text" >
+          <div >
+            <div className="ScrollingText" id="scroll-text" onClick={openModal()}>
               This is scrolling text.<br />
               This is scrolling text.<br />
               This is scrolling text.<br />

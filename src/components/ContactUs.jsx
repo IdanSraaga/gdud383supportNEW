@@ -27,25 +27,22 @@ const ContactUs = () => {
             </tbody>  
             
         </table>
-        <hr style={{borderTop: '1px solid #000000',width:'100%'}}/>
+        <hr style={{borderTop: '1px solid #000000',width:'100%',marginTop:"20px"}}/>
         <table className="phone-contact-ways">
             <thead>
                 <tr>
-                <th>מייל</th>
-                <th>וואצאפ</th>
+                    <th>מייל</th>
+                    <th>וואצאפ</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                <td >Ctrl + K <br/> משוב תקשוב</td>
-                <td>052-4381785</td> 
+                    <td>Ctrl + K <br/> משוב תקשוב</td>
+                    <td>052-4381785</td> 
                 </tr>
-
-
-                
                 <tr>
-                <td >(r03830010)</td>
-                <td>משוב תקשוב</td>
+                    <td >(r03830010)</td>
+                    <td>משוב תקשוב</td>
                 </tr>
             </tbody>  
         </table>
